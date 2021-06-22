@@ -1,0 +1,1 @@
+[{ "_id" : { "$oid" : "60cbb18bfb70000010005abc" }, "length" : { "$numberLong" : "213446" }, "chunkSize" : { "$numberInt" : "261120" }, "uploadDate" : { "$date" : { "$numberLong" : "42122265000" } }, "filename" : "Guernica", "metadata" : {  }, "tipo de archivo" : "imagen", "extension" : ".jpg" }]

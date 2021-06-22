@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{ef8377cb-cf0f-48cf-9c93-7c8b67a9e8af}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>BaseConocimiento</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tmx\install\jsoncpp\Debug\include;C:\mongo-c-driver\include\libbson-1.0; C:\mongo-c-driver\include\libmongoc-1.0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\tmx\install\jsoncpp\Debug\lib\jsoncpp.lib;C:\mongo-c-driver\lib\bson-1.0.lib;C:\mongo-c-driver\lib\mongoc-1.0.lib</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\tmx\install\zlib\Debug\bin;C:\tmx\install\zlib\Release\bin</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tmx\install\jsoncpp\Debug\include;C:\mongo-c-driver\include\libbson-1.0; C:\mongo-c-driver\include\libmongoc-1.0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\tmx\install\jsoncpp\Debug\lib\jsoncpp.lib;C:\mongo-c-driver\lib\bson-1.0.lib;C:\mongo-c-driver\lib\mongoc-1.0.lib</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\tmx\install\zlib\Debug\bin;C:\tmx\install\zlib\Release\bin</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Botones_ArchivoMultimedia.h" />
+    <ClInclude Include="Botones_Coleccion.h" />
+    <ClInclude Include="Botones_Documento.h" />
+    <ClInclude Include="ConsultaMultimedia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Curiosidad.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EliminarBaseDeDatos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EliminarColeccion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EliminarDocumento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EliminarMultimedia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Funciones.h" />
+    <ClInclude Include="Botones_BaseDeDatos.h" />
+    <ClInclude Include="Funciones_Archivos.h" />
+    <ClInclude Include="Funciones_MongoDB.h" />
+    <ClInclude Include="ModificarDocumento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ListaBasesDeDatos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MostrarDocumentoPorID.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Multimedia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevaColeccion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevaRelacion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevaRelacionMultimedia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevoDocumento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevoMultimedia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PanelDeInicio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevaBaseDeDatos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Consulta.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Botones_ArchivoMultimedia.cpp" />
+    <ClCompile Include="Botones_Coleccion.cpp" />
+    <ClCompile Include="Botones_Documento.cpp" />
+    <ClCompile Include="ConsultaMultimedia.cpp" />
+    <ClCompile Include="Curiosidad.cpp" />
+    <ClCompile Include="EliminarBaseDeDatos.cpp" />
+    <ClCompile Include="EliminarColeccion.cpp" />
+    <ClCompile Include="EliminarDocumento.cpp" />
+    <ClCompile Include="Botones_BaseDeDatos.cpp" />
+    <ClCompile Include="EliminarMultimedia.cpp" />
+    <ClCompile Include="Funciones_Archivos.cpp" />
+    <ClCompile Include="Funciones_MongoDB.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Funciones.cpp" />
+    <ClCompile Include="ModificarDocumento.cpp" />
+    <ClCompile Include="MostrarDocumentoPorID.cpp" />
+    <ClCompile Include="Multimedia.cpp" />
+    <ClCompile Include="NuevaColeccion.cpp" />
+    <ClCompile Include="NuevaRelacion.cpp" />
+    <ClCompile Include="NuevaRelacionMultimedia.cpp" />
+    <ClCompile Include="NuevoMultimedia.cpp" />
+    <ClCompile Include="PanelDeInicio.cpp" />
+    <ClCompile Include="ListaBasesDeDatos.cpp" />
+    <ClCompile Include="NuevoDocumento.cpp" />
+    <ClCompile Include="NuevaBaseDeDatos.cpp" />
+    <ClCompile Include="Consulta.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConsultaMultimedia.resx">
+      <DependentUpon>ConsultaMultimedia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Curiosidad.resx">
+      <DependentUpon>Curiosidad.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarBaseDeDatos.resx">
+      <DependentUpon>EliminarBaseDeDatos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarColeccion.resx">
+      <DependentUpon>EliminarColeccion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarDocumento.resx">
+      <DependentUpon>EliminarDocumento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarMultimedia.resx">
+      <DependentUpon>EliminarMultimedia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaBasesDeDatos.resx">
+      <DependentUpon>ListaBasesDeDatos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarDocumento.resx">
+      <DependentUpon>ModificarDocumento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarDocumentoPorID.resx">
+      <DependentUpon>MostrarDocumentoPorID.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multimedia.resx">
+      <DependentUpon>Multimedia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaColeccion.resx">
+      <DependentUpon>NuevaColeccion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaRelacion.resx">
+      <DependentUpon>NuevaRelacion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaRelacionMultimedia.resx">
+      <DependentUpon>NuevaRelacionMultimedia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoDocumento.resx">
+      <DependentUpon>NuevoDocumento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoMultimedia.resx">
+      <DependentUpon>NuevoMultimedia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelDeInicio.resx">
+      <DependentUpon>PanelDeInicio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaBaseDeDatos.resx">
+      <DependentUpon>NuevaBaseDeDatos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta.resx">
+      <DependentUpon>Consulta.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
