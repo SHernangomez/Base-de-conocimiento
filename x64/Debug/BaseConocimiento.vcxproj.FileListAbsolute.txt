@@ -1,0 +1,8 @@
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.OperacionesBasicas.resources
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.vcxproj.GenerateResource.cache
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.vcxprojAssemblyReference.cache
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.ConfirmacionSalida.resources
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.OperacionCreate.resources
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.OperacionDelete.resources
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.OperacionRead.resources
+C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\BaseConocimiento\x64\Debug\BaseConocimiento.OperacionUpdate.resources

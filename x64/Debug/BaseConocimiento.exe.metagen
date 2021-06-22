@@ -1,0 +1,90 @@
+  BaseConocimiento.ConsultaMultimedia.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.Curiosidad.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.EliminarBaseDeDatos.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.EliminarColeccion.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.EliminarDocumento.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.EliminarMultimedia.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.ListaBasesDeDatos.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.ModificarDocumento.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.MostrarDocumentoPorID.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.Multimedia.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.NuevaColeccion.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.NuevaRelacion.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.NuevaRelacionMultimedia.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.NuevoDocumento.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.NuevoMultimedia.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.PanelDeInicio.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.NuevaBaseDeDatos.resources - Embedded, ContainedInManifestFile, 
+  BaseConocimiento.Consulta.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly BaseConocimiento, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class BaseConocimiento.ConsultaMultimedia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.Curiosidad: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.EliminarBaseDeDatos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.EliminarColeccion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.EliminarDocumento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.EliminarMultimedia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.NuevaBaseDeDatos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.NuevaColeccion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.ListaBasesDeDatos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CrearNodo(String): PrivateScope, Public, HideBySig
+    CrearSubnodo(String): PrivateScope, Public, HideBySig
+Class BaseConocimiento.MostrarDocumentoPorID: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.Consulta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.NuevoDocumento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.ModificarDocumento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.NuevaRelacion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.NuevoMultimedia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.NuevaRelacionMultimedia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BaseConocimiento.Multimedia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CppCLRWinformsProjekt.PanelDeInicio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

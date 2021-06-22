@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  ConfirmacionSalida.cpp
+  CppCLR_WinformsProjekt.cpp
+  Funciones.cpp
+  OperacionCreate.cpp
+  OperacionDelete.cpp
+  OperacionRead.cpp
+  OperacionUpdate.cpp
+  OperacionesBasicas.cpp
+  Generando código...
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  BaseConocimiento.vcxproj -> C:\Users\sofia\Desktop\TFG FULL\BaseConocimiento\x64\Debug\BaseConocimiento.exe
